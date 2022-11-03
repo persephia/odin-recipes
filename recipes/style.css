@@ -1,6 +1,41 @@
 /* Individual Recipe Pages */
 
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 .title {
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
+}
+
+.subheader-txt {
+    font-size: 30px;
+}
+
+.recipe-pic {
+    border: 3px solid;
+    border-color: #A5A58D;
+    border-radius: 40px;
+}
+
+.body-header {
+    color: #CB997E;
+    font-weight: 700px;
+}
+
+.ingredient-list {
+    background-color: #B7B7A4;
+    width: 300px;
+}
+
+.method-list {
+    background-color: #DDBEA9;
+    padding: 10px;
+}
+
+ol li {
+    background-color: #D6D6CB;
+    color: #37372C;
+    margin-left: 20px;
 }
